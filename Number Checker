@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main()
+{
+	int num = 0;
+	printf("Please enter the number: ");
+	scanf_s("%d", &num);
+	if (num > 0)
+	{
+		printf("Num is POSITIVE.");
+	}
+	else if (num < 0)
+	{
+		printf("Num is NEGATIVE.");
+	}
+	else
+	{
+		printf("Num is ZERO.");
+	}
+	return 0;
