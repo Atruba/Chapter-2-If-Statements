@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int currentTime = 3; //declare and initialise currentTime
+	if (currentTime >= 12) { //check if 'currentTime' is greater or equal to 12
+		cout << "It's PM" << endl; //if condition is true output PM message
+	}
+	else if (currentTime < 12) { //else if 'currentTime' is less than 12 
+		cout << "It's AM" << endl; //output AM message
+	}
+	return 0;
+}
